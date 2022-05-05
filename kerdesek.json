@@ -1,44 +1,95 @@
 {
 
-    "kutyak" : [
+    "kerdesek" : [
       {
-        "nev": "Blöki",
-        "fajta": "kuvasz",
-        "szin": "fehér",
-        "kor": "2020.02.20",
-        "bunda": "vastag",
-        "oltottsag": true,
-        "kolykokneve": ["elso", "masodik"],
-        "gazda":{
-            "nev":"Jenő",
-            "kor":32
-        }
+        "kerdes": "1. Található-e Magyarországon (műanyag) csomagolás mentes bolt?",
+        "helyesvalasz": "Igen, van.",
+        "valasz1": "Magyaroszágon nincs, de külföldön van.",
+        "valasz2": "Magyaroszágon és külföldön sincs."        
       },
       {
-        "nev": "Morzsa",
-        "fajta": "Puli",
-        "szin": "fekete",
-        "kor": "2020.02.20",
-        "bunda": "vastag",
-        "oltottsag": true,
-        "kolykokneve": ["elso", "masodik"],
-        "gazda":{
-            "nev":"Jenő",
-            "kor":32
-        }
+        "kerdes": "2. Hogyan dobjuk a szelektívbe a műanyagot?",
+        "helyesvalasz": "tisztán, kimosva",
+        "valasz1": "koszosan",
+        "valasz2": "mindegy"        
       },
       {
-        "nev": "Dézi",
-        "fajta": "keverék",
-        "szin": "fekete",
-        "kor": "2020.02.20",
-        "bunda": "vékony",
-        "oltottsag": true,
-        "kolykokneve": ["elso", "masodik"],
-        "gazda":{
-            "nev":"Jenő",
-            "kor":32
-        }
+        "kerdes": "3. Ha bővíteni akarod a ruhatárad és mindegy milyen márkájú akkor...",
+        "helyesvalasz": "turkálókban vásárolok",
+        "valasz1": "Online vásárolok",
+        "valasz2": "noname boltokban vásárolok"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
+      },
+      {
+        "kerdes": "Blöki",
+        "helyesvalasz": "kuvasz",
+        "valasz1": "fehér",
+        "valasz2": "2020.02.20"        
       }
     ]
   }
