@@ -6,8 +6,10 @@
             "kerdes":"1. Található-e Magyarországon (műanyag) csomagolás mentes bolt?",
             "v1":"Igen, van",
             "v2":" Magyaroszágon nincs, de külföldön van",
-            "v3":" Magyaroszágon és külföldön sincs"},
-            {"kerdes":"2. Hogyan dobjuk a szelektívbe a műanyagot?0",
+            "v3":" Magyaroszágon és külföldön sincs"
+        },
+        {
+            "kerdes":"2. Hogyan dobjuk a szelektívbe a műanyagot?0",
             "v1":"tisztán, kimosva",
             "v2":" koszosan",
             "v3":" mindegy"
