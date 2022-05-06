@@ -97,61 +97,61 @@
             "v2":" - koszosan",
             "v3":" - mindegy"},
             {
-            "kerdes":"2. A felsorolás között mi a legkörnyelózetbarátabb közlekedés?0",
+            "kerdes":"2. A felsorolás között mi a legkörnyelózetbarátabb közlekedés?",
             "v1":"Helyes válasz: séta",
             "v2":" - vonat",
             "v3":" - autó"
         },
         {
-            "kerdes":"3. Ha szemetet látsz eldobva...0",
+            "kerdes":"3. Ha szemetet látsz eldobva...",
             "v1":"Helyes válasz: felveszem és kidobom a legközelebb kukába",
             "v2":" - ott hagyom",
             "v3":" - belerúgok"
         },
         {
-            "kerdes":"4. Mi kerülhet a papír szelektívbe?0",
+            "kerdes":"4. Mi kerülhet a papír szelektívbe?",
             "v1":"Helyes válasz: újságok, tejes -gyümölcsleves papírdobozok, könyvek",
             "v2":" - hőpapír (nyugta, blokk)",
             "v3":" - olajjal/zsíradékkal szennyezett papír"
         },
         {
-            "kerdes":"5. Miket komposztálhatunk?0",
+            "kerdes":"5. Miket komposztálhatunk?",
             "v1":"Helyes válasz: zöldség - gyümölcs maradék, tojáshéj",
             "v2":" - nagy ágak, fatörzsek, diófalevér",
             "v3":" - fém, műanyag, vegyszeres dolgok"
         },
         {
-            "kerdes":"6. Mi a komposzt?0",
+            "kerdes":"6. Mi a komposzt?",
             "v1":"Helyes válasz: szerves anyagok lebomlásának a végterméke",
             "v2":" - szerves és szervetlen anyagok lebomlásának a végterméke",
             "v3":" - szervetlen anyagok lebomlásának a végterméke"
         },
         {
-            "kerdes":"7. A könyveket....0",
+            "kerdes":"7. A könyveket....",
             "v1":" Helyes válasz:kiveszem a könyvtárból/elcserélem",
             "v2":" - megveszem drágán a boltban",
             "v3":" - elégetem,ha már nem kell"
         },
         {
-            "kerdes":"8. Mi az ökologiai lábnyom?0",
+            "kerdes":"8. Mi az ökologiai lábnyom?",
             "v1":"Helyes válasz: Egy mutató, hogy mekkora mértékben éljük föl természetes erőforrásokat.",
             "v2":" - Az amikor sárba lépünk és ott marad a cipő talpának a lenyomata.",
             "v3":" - Az amikor valaki lápnyomokat hagy az úton"
         },
         {
-            "kerdes":"9. Az okostelefont...0",
+            "kerdes":"9. Az okostelefont...",
             "v1":" Helyes válasz: csak 2-3 évente cserélem",
             "v2":" - évente cserélem",
             "v3":" -  amikor van egy jobb akkor azt rögtön megveszem"
         },
         {
-            "kerdes":"10. Hova tegyük az üveget?0",
+            "kerdes":"10. Hova tegyük az üveget?",
             "v1":"Helyes válasz: A színes üveghulladékok közé dobjuk a kupak nélküli boros-, pezsgős, sörös- és röviditalos színesüvegeket, természetesen átöblítés után, tisztán.",
             "v2":" - csak szimplán kidobjuk",
             "v3":" Helyes válasz: A fehérüveg-hulladékok közé csak az olyan elöblített üvegeket dobjuk, amelyek átlátszók. Ilyen például a dunsztosüveg, a tejesüveg, bébiételes üveg stb."
         },
         {
-            "kerdes":"11. Mi a legjobb alternatíva a nejlon zacskókra?0",
+            "kerdes":"11. Mi a legjobb alternatíva a nejlon zacskókra?",
             "v1":"Helyes válasz: vászon szatyrok",
             "v2":" - papír zacskók",
             "v3":" - erősebb műanyagból készült szatyrok"
