@@ -16,9 +16,11 @@ function feldolgoz(kerdesek) {
     var txt = " "
     kerdesek.forEach(function  (kerdesek){
         txt += '<h1>'
-    for (const key in kerdesek) {
-      txt += `<span> ${kerdesek[key]}</span><br>`
+
+    for (const i in kerdesek) {
+      txt += `<span> ${kerdesek[i]}</span><br>`
         }
+        
         txt +='</h1>'
     });
     console.log(txt)
