@@ -18,8 +18,15 @@ function feldolgoz(kerdesek) {
         txt += '<h1>'
 
     for (const i in kerdesek) {
-      txt += `<span> ${kerdesek[i]}</span><br>`
+      console.log(i)
+      if (i != "id") {
+        if (i === "kerdes") {
+          txt += `<span> ${kerdesek[i]}</span><br>`
+        }else{
+          txt += `<input type='radio' name="${kerdesek['id']}"><span> ${kerdesek[i]}</span><br>`
         }
+          }
+      }
         
         txt +='</h1>'
     });

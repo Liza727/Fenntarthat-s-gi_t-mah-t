@@ -3,6 +3,7 @@
     "kerdesek" : [
         
         {
+            "id": "1",
             "kerdes": "1. Található-e Magyarországon (műanyag) csomagolás mentes bolt?",
             "v1": "Igen, van",
             "v2": "Magyaroszágon nincs, de külföldön van",
