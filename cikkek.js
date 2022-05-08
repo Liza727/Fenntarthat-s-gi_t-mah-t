@@ -35,9 +35,12 @@ function feldolgoz(cikkek) {
         else if (i === "link1"){
           txt += `<span> ${cikkek[i]}</span><br>`
         }
-        else{
-          txt += `<input type='radio' name="${cikkek['id']}"><span> ${cikkek[i]}</span><br>`
-        }
+        //else if (i.indexOf("fels")>=0){
+          //txt += '<ul>'
+          //for (const i in i.indexOf("felsorolas")!=0)
+          //txt += `<li><span>${cikkek[i.indexOf("felsorolas")>=0]}</span><span> ${cikkek[i.indexOf("felsorolas")>=0]}</span><br>`
+          //txt += '</ul>'
+        //}
           }
       //txt += `<span> ${cikkek[i]}</span><br>`
         }
