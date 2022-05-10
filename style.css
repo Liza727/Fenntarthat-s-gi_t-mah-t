@@ -3,3 +3,14 @@ button{
     height: 100px;
     width: 400px;
 }
+
+body{
+    text-align: justify;
+}
+#kerdes{
+    font-weight: normal;
+    font-size: x-large;
+}
+.helyesvalasz{
+    color: green;
+}
