@@ -35,6 +35,11 @@ function feldolgoz(cikkek) {
         else if (i === "link1"){
           txt += `<span> ${cikkek[i]}</span><br>`
         }
+        else if (i.indexOf("kep")>=0){
+          txt += "<img src=\""+cikkek[i]+"\" width= 100px height= 100 px>"
+          // FTH_cikkek/hulladek_mentes_vasarlas/adagoló.jpg
+         
+        }
         else if (i.indexOf("fels")>=0){
           //txt += `<ul> ${cikkek[i]}</ul><br>`
          /* txt += '<ul>';
