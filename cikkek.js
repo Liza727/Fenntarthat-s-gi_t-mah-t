@@ -15,7 +15,7 @@ function init(){
 function feldolgoz(cikkek) {
     var txt = " "
     cikkek.forEach(function  (cikkek){
-        txt += '<h1>'
+        txt += ''
 
     for (const i in cikkek) {
       console.log(i)
@@ -35,17 +35,27 @@ function feldolgoz(cikkek) {
         else if (i === "link1"){
           txt += `<span> ${cikkek[i]}</span><br>`
         }
-        //else if (i.indexOf("fels")>=0){
-          //txt += '<ul>'
-          //for (const i in i.indexOf("felsorolas")!=0)
-          //txt += `<li><span>${cikkek[i.indexOf("felsorolas")>=0]}</span><span> ${cikkek[i.indexOf("felsorolas")>=0]}</span><br>`
-          //txt += '</ul>'
-        //}
+        else if (i.indexOf("fels")>=0){
+          //txt += `<ul> ${cikkek[i]}</ul><br>`
+         /* txt += '<ul>';
+          for (const x in i.indexOf("fels")!=0){
+            txt += `<li><span>${(x.indexOf("fels")>=0)[x.indexOf("fels")>=0]}</span><span> ${(x.indexOf("fels")>=0)[x.indexOf("fels")>=0]}</span><br>`
           }
-      //txt += `<span> ${cikkek[i]}</span><br>`
+          txt += '</ul>';*/
+          const lista=cikkek[i];          
+          //console.log(Object.keys(lista));
+          for (const n in lista) {
+            //console.log(n);
+            txt += "<li><span>"+lista[n]+"</span></li>";
+          }
+          /*cikkek[i].forEach(function  (n){
+            console.log(n);
+          })*/
         }
-        
-        txt +='</h1>'
+      }
+      //txt += `<span> ${cikkek[i]}</span><br>`
+        }        
+        txt +=''
     });
     console.log(txt)
     $('article')[0].innerHTML = txt
