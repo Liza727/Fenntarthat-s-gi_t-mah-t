@@ -1,12 +1,80 @@
-
-
+@charset "utf-8";
+html{
+    margin: 0;
+}
 body{
     text-align: justify;
+    margin: 0;
+    background-color: #C4EcD4;
+}
+*{
+    box-sizing: border-box;
 }
 #kerdes{
     font-weight: normal;
     font-size: x-large;
+
 }
-.helyesvalasz{
-    color: green;
+
+header,nav,aside,article,footer, main{
+    padding: 10px;
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas:
+    "n n"
+    "h h"
+    "h h"
+    "ar ar"
+    "f f"
+    "f f"
+    "f f";
+	
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    grid-area:h;
+    background: url(./teknos.jpg);
+    background-repeat:no-repeat;
+    height: 500px;
+    background-position: 50% 50%;
+}
+nav{
+    grid-area: n;
+    background-color: #11BBD1;
+    height: 50px;
+}
+article{grid-area:ar;
+    height: 300px;
+    background-color: white;
+  
+
+}
+footer{
+    grid-area: f;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+    "c c c";
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    height: 80%;
+    border: 1px solid gray;
+    grid-area: c1;
+    text-align: center;
+    margin: 0px
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container {
+    padding: 2px 16px;
+    
+  }
+ 
