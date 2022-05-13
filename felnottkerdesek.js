@@ -10,9 +10,10 @@ function init(){
     .then((data) => {
       //console.log(data.kerdesek)
       feldolgoz(data.felnottkerdesek)
-      ellenorzo_gomb()
     })
 }
+var trueid = "trueid";
+var falseid = "falseid"
 
 function feldolgoz(felnottkerdesek) {
     var txt = " "
@@ -21,19 +22,25 @@ function feldolgoz(felnottkerdesek) {
 
     for (const i in felnottkerdesek) {
 /*       console.log(i) */
+      
       if (i != "id" && i != "helyesvalasz") {
         if (i === "kerdes") {
           txt += `<h1><span> ${felnottkerdesek[i]}</span></h1>`
-        }else{
-          txt += `<input type='radio' name="${felnottkerdesek['id']}"><span id="kerdes">${felnottkerdesek[i]}</span><br>`
+        } else if(i != "v1"){
+          txt += `<input type='radio'id="`+falseid+`"  name="${felnottkerdesek['id']}"><span >${felnottkerdesek[i]}</span><br>`
+        }
+        else{
+          txt += `<input type='radio' id="`+trueid+`" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v1']}</span><br>`
           
         }
-               
-          }   
-      }
-      txt += `<button id="btn">Ellenőrzés</button>` 
-        txt +=''
 
+          }  
+          
+      }
+      txt += `<button onclick="ellenorzo_gomb()">Ellenőrzés</button>`
+      txt += `<p id="output"></p>`
+        txt +=''
+      
     });
     
 /*     console.log(txt) */
@@ -44,20 +51,17 @@ function feldolgoz(felnottkerdesek) {
 
 }
 
-function ellenorzo_gomb(felnottkerdesek) {
-  felnottkerdesek.forEach(function  (felnottkerdesek){
-  const check = document.getElementById('kerdes');
-  const mehetGomb = document.getElementById('btn');
-  mehetGomb.addEventListener("click",function(){
-    for (const i in felnottkerdesek) {
-  
-    }
-    
-
-  });
-
-
-});
+function ellenorzo_gomb() {
+  const output = document.querySelector('#output');
+  if (document.getElementById("trueid").checked === true) {
+    output.innerText=`Helyes válasz`
+    console.log("Helyes válasz");
+  }else if(document.getElementById("falseid").checked === true){
+    output.innerText="Helytelen válasz"
+    console.log("Helytelen válasz");
+  }else{
+    output.innerText="Válasz a lehetőségek közül."
+  }
 }
 
 
