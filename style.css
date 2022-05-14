@@ -112,6 +112,9 @@ footer{
     padding-top: 250px;
     padding-left: 50px;
   }
+  .kerdesek{
+    text-align: justify;
+  }
   @media screen and (max-width: 1400px){
       footer{
         margin: 0 auto 0 auto;
