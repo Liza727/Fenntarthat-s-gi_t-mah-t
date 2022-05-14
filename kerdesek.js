@@ -44,7 +44,7 @@ function feldolgoz(kerdesektomb) {
     });
     
 /*     console.log(txt) */
-    $('article')[0].innerHTML = txt
+    $('.kerdesek')[0].innerHTML = txt
     
      /* const truegomb = $("input"); */
 

@@ -5,13 +5,13 @@ function $(elem) {
 
 function init(){
   $("#adult")[0].addEventListener("click",function () {
-    kerdesbetoltes("felnottkerdesek.json");
+    kerdesbetoltes("adultkerdesek.json");
   });
   $("#mschool")[0].addEventListener("click",function () {
-    kerdesbetoltes("altiskkerdesek.json");
+    kerdesbetoltes("middlechoolkerdesek.json");
   });
   $("#hgschool")[0].addEventListener("click",function () {
-    kerdesbetoltes("hightschool.json");
+    kerdesbetoltes("hightschoolkerdesek.json");
   });  
 }
 
