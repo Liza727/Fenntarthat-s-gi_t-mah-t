@@ -45,8 +45,8 @@ nav{
 article{grid-area:ar;
     height: 300px;
     background-color: white;
-  
-
+    color:black;
+    height: auto;
 }
 footer{
     grid-area: f;
@@ -111,6 +111,9 @@ footer{
     text-align: left;
     padding-top: 250px;
     padding-left: 50px;
+  }
+  .kerdesek{
+    text-align: justify;
   }
   @media screen and (max-width: 1400px){
       footer{
