@@ -1,0 +1,80 @@
+{
+    "kerdesek" : [
+        {
+            "id": "1",
+            "kerdes":"1. A műanyagot milyen színű szelektív kukába gyűjtjük?",
+            "v1":"citromsárga",
+            "v2":"kék",
+            "v3":"zöld"
+        },
+        {
+            "id": "2",
+            "kerdes":"2. A papírt milyen színű szelektív kukába gyűjtjük?",
+            "v1":"kék",
+            "v2":"piros",
+            "v3":"szürke"
+        },
+        {
+            "id": "3",
+            "kerdes":"3. Az üveget milyen színű szelektív kukába gyűjtjük?",
+            "v1":"zöld",
+            "v2":"lila",
+            "v3":"citromsárga"
+        },
+        {
+            "id": "4",
+            "kerdes":"4. A fémet milyen színű szelektív kukába gyűjtjük?",
+            "v1":"szürke",
+            "v2":"kék",
+            "v3":"narancssárga"},
+        {
+            "id": "5",
+            "kerdes":"5. Milyen színűek a szelektív kukák?",
+            "v1":"citromsárga, kék, szürke, zöld",
+            "v2":"piros, kék, zöld, fekete",
+            "v3":"citromsárga, zöld, lila, rózsaszín"
+        },
+        {
+            "id": "6",
+            "kerdes":"6. A felsorolás között mi a legkörnyezetbarátabb közlekedés?",
+            "v1":"séta",
+            "v2":"vonat",
+            "v3":"autó"
+        },
+        {
+            "id": "7",
+            "kerdes":"7. A felsorolás között melyik a takarékosabb?",
+            "v1":"zuhanyzás",
+            "v2":"habfürdő, pancsolás kádban",
+            "v3":"fürdűszobából vizipark csinálás"
+        },
+        {
+            "id": "8",
+            "kerdes":"8. Miket komposztálhatunk?",
+            "v1":"zöldség - gyümölcs maradék, tojáshéj",
+            "v2":"nagy ágak, fatörzsek, diófalevél",
+            "v3":"fém, műanyag, vegyszeres dolgok"
+        },
+        {
+            "id": "9",
+            "kerdes":"9. Fogmosásnál... ",
+            "v1":"elzárom a csapot, ha már nem kell víz",
+            "v2":"nem zárom el a csapot, hadd folyjon",
+            "v3":"ki tekerem tejlesen, mert miért ne"
+        },
+        {
+            "id": "10",
+            "kerdes":"10. Közlekedésnél....",
+            "v1":"ha lehet biciklizek",
+            "v2":"autózom",
+            "v3":"tömegközlekedést használok"
+        },
+        {
+            "id": "11",
+            "kerdes":"11. Az okostelefont...",
+            "v1":" csak 2-3 évente cserélem",
+            "v2":"évente cserélem",
+            "v3":" amikor van egy jobb akkor azt rögtön megveszem"
+        }
+    ]
+}   

@@ -1,43 +1,43 @@
-window.addEventListener('load', init)
+/* window.addEventListener('load', init) */
 function $(elem) {
     return document.querySelectorAll(elem)
   }
   
 
-function init(){
-    fetch("felnottkerdesek.json")
+function kerdesbetoltes(filename){
+    fetch(filename)
     .then((response) => response.json())
     .then((data) => {
       //console.log(data.kerdesek)
-      feldolgoz(data.felnottkerdesek)
+      feldolgoz(data.kerdesek)
     })
 }
 
-function feldolgoz(felnottkerdesek) {
+function feldolgoz(kerdesektomb) {
     var txt = " "
-    felnottkerdesek.forEach(function  (felnottkerdesek){
+    kerdesektomb.forEach(function  (kerdes){
         txt += ''
 
-    for (const i in felnottkerdesek) {
+    for (const i in kerdes) {
 /*       console.log(i) */
       
       if (i != "id" ) {
         if (i === "kerdes") {
-          txt += `<h1><span> ${felnottkerdesek[i]}</span></h1>`
+          txt += `<h1><span> ${kerdes[i]}</span></h1>`
         } else if(i === "v1"){
-          txt += `<input type='radio' class="trueid" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v1']}</span><br>`
+          txt += `<input type='radio' class="trueid" name="${kerdes['id']}"><span >${kerdes['v1']}</span><br>`
         }
         else if (i === "v2"){
-          txt += `<input type='radio' class="falseid1" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v2']}</span><br>`
+          txt += `<input type='radio' class="falseid1" name="${kerdes['id']}"><span >${kerdes['v2']}</span><br>`
           
         }else{
-          txt += `<input type='radio' class="falseid2" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v3']}</span><br>`
+          txt += `<input type='radio' class="falseid2" name="${kerdes['id']}"><span >${kerdes['v3']}</span><br>`
         }
 
           }  
           
       }
-      txt += `<button id="${felnottkerdesek['id']}" onclick="ellenorzo_gomb()">Ellenőrzés</button>`
+      txt += `<button id="${kerdes['id']}" onclick="ellenorzo_gomb()">Ellenőrzés</button>`
       txt += `<p class="output"></p>`
         txt +=''
       
