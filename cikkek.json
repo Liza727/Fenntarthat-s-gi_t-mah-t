@@ -48,7 +48,8 @@
         "felsorolas8": "Műanyag szívószál helyett papír szívószálat használj!",
         "felsorolas9": "Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
         "felsorolas10": "Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
-      }
+      },
+      "kep1": "FTH_cikkek/fenntarthatosagi_alternatívak/hands-4091879_960_720.jpg"
     },
     {
       "id": "mesi",
@@ -75,7 +76,12 @@
       "cim5": "DAIGE",
       "bekezdes7": "DAIGE-A Tóth Melinda által 2013-ban alapított márka célja, hogy darabjaik több évre szóljanak, minőség és formavilág tekintetében időtállóak és elérhetőek is maradjanak. Irányelvük az autentikusság, a fenntarthatóság, a megfizethetőség és a praktikum. A DAIGE gerle madárral díszített pólója egyszerre lezser és nőies, 11,990 forintért rendelhető meg a Budapest Select Concept Store-ból.",
       "cim6": "Maison Marquise ",
-      "bekezdes8": "Maison Marquise-A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban."
+      "bekezdes8": "Maison Marquise-A klasszikus nőies eleganciát képviselő márka a funkcionális alapdarabok híve, olyan, egymással jól variálható kollekciókban gondolkodik, amelyek könnyen alakíthatóak át a hétköznapi üzleti viseletből elegáns esti megjelenéssé. A hazai gyártásban, helyi varrodában minőségi anyagok felhasználásával készült kollekció egyik alapdarabja az arany betéttel feldobott, oldalt felsliccelt sötétkék maxiruha, amiért 84,000 forintot kérnek a webshopban.",
+      "kep1": "FTH_cikkek/fenntarthato_divat/kep1.jpg",
+      "kep2": "FTH_cikkek/fenntarthato_divat/kep2.jpg",
+      "kep3": "FTH_cikkek/fenntarthato_divat/kep3.jpg",
+      "kep4": "FTH_cikkek/fenntarthato_divat/kep4.jpg",
+      "kep5": "FTH_cikkek/fenntarthato_divat/kep5.jpg"
     },
     {
       "id": "greti",
@@ -88,7 +94,7 @@
       "kep2": "FTH_cikkek/teszedd/kep2.jpg",
       "cim2": "KERT-KÓSTOLGATÓ PÁLYÁZAT",
       "bekezdes4": "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig",
-      "kep1ó3": "FTH_cikkek/teszedd/kep3.jpg"
+      "kep3": "FTH_cikkek/teszedd/kep3.jpg"
     },
     {
       "id": "betti",
@@ -131,7 +137,10 @@
       "bekezdes8": "a természeti erőforrások fenntartó használata, amelynek megvalósításához a társadalom környezettudatos és környezetetikus magatartása szükséges;",
       "bekezdes9": "a környezetminőség megőrzése",
       "cim6": "Fenntarthatóság az iskolában",
-      "bekezdes10": "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos."
+      "bekezdes10": "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos.",
+      "kep1": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép1.jpg",
+      "kep2": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép2.jpg",
+      "kep3": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép3.jpg"
     },
     {
       "id": "tori",

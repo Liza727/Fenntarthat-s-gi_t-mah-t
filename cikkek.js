@@ -63,5 +63,5 @@ function feldolgoz(cikkek) {
         txt +=''
     });
     console.log(txt)
-    $('article')[0].innerHTML = txt
+    $('footer')[0].innerHTML = txt
 }
