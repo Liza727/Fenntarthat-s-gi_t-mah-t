@@ -2,6 +2,7 @@
   "cikkek": [
     {
       "id": "bevezeto",
+      "foCim1": "A Fenntarthatósági Témahét",
       "bekezdes1": "A Fenntarthatósági Témahét 2022. április 25. és 29. között kerül megrendezésre, amelyet Emberi Erőforrások Minisztériuma hirdet. Minden hazai és határon túli nevelési-oktatási intézmény  csatlakozhat idén a mi iskolánk is újra belevágott.",
       "cim1": "Mit tervezünk erre a hétre?",
       "bekezdes2": "Könyvcsere; Ruhacsere; Használt póló megújító workshop; Ovisoknak kézműves foglalkozás és versenyek; Divatbemutató és Verseny az osztályok között, aminek a cime tedd zöldebbé a földet.",
@@ -21,17 +22,19 @@
       "bekezdes2": "A magyar hulladékmentes mozgalom egyik kiemelkedő alakja Tóth Andi, aki mások inspirálása érdekében létrehozta a Háztartásom hulladék nélkül nevű blogját. A környezetbarát üzletek a fővárosba koncentrálódtak, de emellett az ország számos nagyvárosában és szinte az összes régiójában találni néhány boltot. Nyílt csomagolásmentes bolt Orosházán, Hajdúnánáson és Berettyóújfaluban is.",
       "cim3": "Mit is találhatunk egy ilyen boltban?",
       "bekezdes3": "Ezen üzletek általában bio, vegyszerektől mentes, kisüzemben gyártott hazai élelmiszereket árulnak, így számolni kell azzal, hogy a termékek valamivel drágábbak lesznek a megszokottnál. Az élelmiszer mellett számos boltban találkozhatunk kimérős tisztítószerekkel is, illetve általában a hulladékmentes életmód kellékeinek széles választékát is megtaláljuk, mint például vizes palack, textil szalvéta vagy fém szívószál.",
-      "kep2": "FTH_cikkek/hulladek_mentes_vasarlas/fémszívószál.jpg"
+      "kep2": "FTH_cikkek/hulladek_mentes_vasarlas/fémszívószál.jpg",
+      "szerzo": "Karányi Alexandra Viktória"
     },
     {
-      "id": "vsz",
+      "id": "vzs",
       "foCim1": "A ZÖLD MARKETING",
       "bekezdes1": "A marketing már a mindennapjaink része, mindenhol találkozhatunk vele és mindig a szemünk előtt van, még ha nem is látjuk, mint egy rejtett reklám. Mindennapunk része, tehát szinte természetessé vált, nem lenne izgalmas és hasznos ezt a természetes dolgot az életünkben zöldebbé tenni?",
       "kep1": "FTH_cikkek/zold_marketing/zm5.jpg",
       "bekezdes2": "Ez a fejlesztés Magyarországon nem elterjedt, viszont a nyugati országok már előszeretettel használják, hiszen a fenntartható út választásával sokat profitálnak és a vállalkozásuk megítélése is javul. Nagyon fontos, hogy a zöld marketing mögött mindig konkrét, valós környezeti előny álljon. Ilyen lehet egy technológiaváltás, amely kevesebb mennyiségű, vagy könnyebben kezelhető melléktermékeket, hulladékot termel a végtermék mellett. Ilyen lehet egy hathatós kibocsátáscsökkentés, energiahatékonysági beruházások, vagy például megújuló energia felhasználásához napelemek, illetve szélturbinák telepítése. Ha elvégezzük a tanulmányainkat és indítanánk egy vállalkozást biztos van konkrét elképzelésünk, de legalább valami konkrét ötletünk, mai még kiegészítésre vár. Sok mindenre kell gondolnunk többek között a marketingünkre, de milyen is egy jó marketing? Hát nem egyértelmű? Az modern marketing, ami új és éppen az emberek érdeklődésének középpontjában áll. Gondoltad volna, hogy a vásárlók 49%-a hajlandó többet fizetni egy termékért, ha az környezetbarát? Pontosan ez derül ki a Nielsen globális kutatásából.",
       "kep2": "FTH_cikkek/zold_marketing/zm3.jpg",
       "bekezdes3": "Valóban sikerülhet ez? Igen! Hiszen például az egyik legismertebb kávézónak a Starbucks-nak is sikerült. Kávét ragadva sokan 5% poliuretán műanyagot tartalmazó eldobható kávéscsészéket választanak, ami megnehezíti az újrahasznosítást és a komposztálást. A Starbucks azonban környezetbarát konténert fejleszt ki, amely 2020-ig megduplázza a csészék újrahasznosított tartalmát és újrafelhasználhatóságát. A cég elkötelezett amellett, hogy 99% -ban etikusan beszerzett kávéval dolgozik, ezzel a kávé a világ első fenntartható mezőgazdasági terméke lesz, és 2025-ig 100 millió kávéfát biztosít a gazdálkodóknak. A Starbucks emellett 10 000 energiahatékony, zöld kiskereskedelmi üzletet is szeretne építeni és működtetni 2025-ig.",
-      "kep3":"FTH_cikkek/zold_marketing/zm2.jpg"
+      "kep3":"FTH_cikkek/zold_marketing/zm2.jpg",
+      "szerzo": "Vigh Zsófia"
     },
     {
       "id": "dori",
@@ -49,7 +52,8 @@
         "felsorolas9": "Műanyag evőeszközök helyett használj fa vagy fém evőeszközöket!",
         "felsorolas10": "Mesterséges illatok helyett frissítsd otthonod levegőjét inkább természetes illóolajokkal."
       },
-      "kep1": "FTH_cikkek/fenntarthatosagi_alternatívak/hands-4091879_960_720.jpg"
+      "kep1": "FTH_cikkek/fenntarthatosagi_alternatívak/hands-4091879_960_720.jpg",
+      "szerzo": "Pipics Dorottya"
     },
     {
       "id": "mesi",
@@ -81,7 +85,8 @@
       "kep2": "FTH_cikkek/fenntarthato_divat/kep2.jpg",
       "kep3": "FTH_cikkek/fenntarthato_divat/kep3.jpg",
       "kep4": "FTH_cikkek/fenntarthato_divat/kep4.jpg",
-      "kep5": "FTH_cikkek/fenntarthato_divat/kep5.jpg"
+      "kep5": "FTH_cikkek/fenntarthato_divat/kep5.jpg",
+      "szerzo": "Tuli Emese Boglárka"
     },
     {
       "id": "greti",
@@ -94,7 +99,8 @@
       "kep2": "FTH_cikkek/teszedd/kep2.jpg",
       "cim2": "KERT-KÓSTOLGATÓ PÁLYÁZAT",
       "bekezdes4": "A pályázat célja, hogy az iskolás csoportok egy saját tervezésű legalább 1 m2 iskolakertet hozzanak létre. Az iskolakertbe olyan növények ültetését várjuk, amelyek az a fenntarthatóságot szolgálják. Az iskolakert létrehozását dokumentálni kell a tervezéstől a kivitelezésig",
-      "kep3": "FTH_cikkek/teszedd/kep3.jpg"
+      "kep3": "FTH_cikkek/teszedd/kep3.jpg",
+      "szerzo": "Kovács Gréta"
     },
     {
       "id": "betti",
@@ -140,7 +146,8 @@
       "bekezdes10": "Az iskolákban lenne a legfontosabb, ha a fenntarthatóságról többet beszélnének, tanítanának róla, így már kiskoruktól kezdve figyelnének a környezetükre. Meg kell tanítani az iskolákban hogyqn gyűjtsék a hulladékot szelektíven, ne pazaroljanak, ne szemeteljenek, és hogyan védjék meg a Földünket. Ne használjanak műanyagot, helyette számos megoldás található ami környezettudatos.",
       "kep1": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép1.jpg",
       "kep2": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép2.jpg",
-      "kep3": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép3.jpg"
+      "kep3": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép3.jpg",
+      "szerzo": "Bolla Bettina Réka"
     },
     {
       "id": "tori",
@@ -156,7 +163,8 @@
       "bekezdes4": "Papp Endre (a Zöld Színház Projekt vezetője) világossá teszi, hogy a Zöld Színház Projekt nem hivatott szembemenni a művészeti víziókkal, csupán arra tesz javaslatot, hogy az adott díszletelemet és kelléket honnan szerezzék be.",
       "cim3": "Színház újrahasznosított papírból",
       "kep4": "FTH_cikkek/fenntarthatosag_a_színhazban/3.png",
-      "bekezdes5": "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz."
+      "bekezdes5": "A színházat alkotó, újrahasznosított papírból álló bálák elsősorban régi magazinokból, újságokból és irodai hulladékokból készülnek. A színház teteje egy használt cirkuszi sátor újrahasznosításával alakítanak ki, melyet bambusszal feszítenek ki. A sátor tetején elhelyezett nyílásnak köszönhetően pedig mesterséges színpadi világításra sincs szükség, a természetes fény elég a nappali előadásokhoz.",
+      "szerzo": "PItyer Viktória Krisztina"
     },
     {
       "id": "baresz",
@@ -188,7 +196,8 @@
       "bekezdes17": "Környezeti terhelés csökkentése pl. CO2 kibocsátás minimalizálása és papírmentes iroda révén.",
       "bekezdes18": "Emberközpontúság mind a kollégák, mind az ügyfelek tekintetében.",
       "bekezdes19": "Társadalmi szerepvállalás fontossága.",
-      "link1": "https://vitafutura.hu/mit-jelent-a-fenntarthatosag/"
+      "link1": "https://vitafutura.hu/mit-jelent-a-fenntarthatosag/",
+      "szerzo": "Oláh Barbara"
     },
     {
       "id": "vera1",
@@ -198,7 +207,8 @@
       "bekezdes2": "A technológia ugyan drága, és sokkal nagyobb mértékű beruházásokra van szükség, mint a napelemes befektetéseknél, de a szélenergia hosszútávú előnyei sokkal kecsegtetőbbek. Ha az átállás sikeres lenne  az azt jelentené, hogy évente 3,6 milliárd tonnával kevesebb széndioxidot engednénk a levegőbe.",
       "bekezdes3": "Kína az egyik legkiemelkedőbb vezető ország, ha szélenergiáról van szó. Tavaly 17%-ra növelték a szélenergiából befolyó energia mennyiségét az országban, és jelenleg is további bővítéseket terveznek, még idén. Ezen kívül már született megegyezés abban, hogy 1.000 szénbányát fognak bezárni országszerte, ezzel is elősegítve a megújuló energiaforrásokba történő befektetéseket.",
       "bekezdes4": "Az jó ügy édekében Kínának és még sok más országnak teljesen át kell alakítania a hálózat infrastruktúráját, hogy teljesen ki tudják használni a megújuló energiaforrásokat. ",
-      "link1": "https://www.tisztajovo.hu/megujulo-energiaforrasok/2016/10/19/az-energiank-20-a-szeleromuvekbol-fog-erkezni"
+      "link1": "https://www.tisztajovo.hu/megujulo-energiaforrasok/2016/10/19/az-energiank-20-a-szeleromuvekbol-fog-erkezni",
+      "szerzo": "Zachar Veronika"
     },
     {
       "id": "vera2",
@@ -247,7 +257,8 @@
         "felsorolas5": "Ha tengerhez, vagy óceánhoz valamilyen formában kapcsolódó cég vezetője vagy",
         "felsorolas6": "Fordíts a nemzetközi jog érvényesítése és végrehajtása által fokozott figyelmet az óceánok és erőforrásaik megőrzésére, és fenntartható használatára az ENSZ Tengerjogi Egyezménye előírásainak megfelelően – ahogy arra „Az áhított jövő” című ENSZ-nyilatkozat 158. bekezdése emlékeztet."
       },
-      "link1": "https://xforest.hu/oceanok/"
+      "link1": "https://xforest.hu/oceanok/",
+      "szerzo": "Zachar Veronika"
     }
   ]
 }

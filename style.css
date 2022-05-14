@@ -115,6 +115,9 @@ footer{
   .kerdesek{
     text-align: justify;
   }
+  .Focim{
+    text-align: center;
+  }
   @media screen and (max-width: 1400px){
       footer{
         margin: 0 auto 0 auto;
