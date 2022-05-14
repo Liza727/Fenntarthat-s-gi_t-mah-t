@@ -32,7 +32,7 @@ main{
 }
 header{
     grid-area:h;
-    background: url(./teknos.jpg);
+    background: url(./galéria/teknos.jpg);
     background-repeat:no-repeat;
     height: 500px;
     background-position: 50% 50%;
@@ -132,6 +132,9 @@ footer{
   }
   .kerdesek{
     text-align: justify;
+  }
+  .Focim{
+    text-align: center;
   }
   @media screen and (max-width: 1400px){
       footer{
