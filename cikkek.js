@@ -20,19 +20,19 @@ function feldolgoz(cikkek) {
     for (const i in cikkek) {
       console.log(i)
       if (i != "id") {
-        if (i === "oldalcim" ) {
-          txt += `<h1> ${cikkek[i]}</h1>`
-        }
-        else if (i === "foCim1"  || i === "foCim2") {
+        if (i.indexOf("foCim")>=0) {
           txt += `<h2> ${cikkek[i]}</h2>`
         }
-        else if (i === "cim1"  || i === "cim2"  || i === "cim3"  || i === "cim4"  || i === "cim5"  || i === "cim6"  || i === "cim7"  || i === "cim8"){
+        else if (i.indexOf("cim")>=0){
           txt += `<h3> ${cikkek[i]}</h3>`
         }
         else if (i.indexOf("bekezdes")>=0 /* === "bekezdes1"  || i === "bekezdes2"  || i === "bekezdes3"  || i === "bekezdes4"  || i === "bekezdes5"  || i === "bekezdes6"  || i === "bekezdes7"  || i === "bekezdes8"  || i === "bekezdes9"  || i === "bekezdes10"  || i === "bekezdes11"  || i === "bekezdes112"  || i === "bekezdes13"  || i === "bekezdes14"  || i === "bekezdes15"  || i === "bekezdes16"  || i === "bekezdes17"  || i === "bekezdes18"  || i === "bekezdes19"*/){
           txt += `<span> ${cikkek[i]}</span><br>`
         }
         else if (i === "link1"){
+          txt += `<span> ${cikkek[i]}</span>`
+        }
+        else if (i === "szerzo"){
           txt += `<span> ${cikkek[i]}</span>`
         }
         else if (i.indexOf("kep")>=0){
@@ -63,5 +63,5 @@ function feldolgoz(cikkek) {
         txt +=''
     });
     console.log(txt)
-    $('footer')[0].innerHTML = txt
+    $('article')[0].innerHTML = txt
 }
