@@ -47,7 +47,6 @@ article{grid-area:ar;
     background-color: white;
     color:black;
     height: auto;
-
 }
 footer{
     grid-area: f;
