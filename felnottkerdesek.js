@@ -12,8 +12,6 @@ function init(){
       feldolgoz(data.felnottkerdesek)
     })
 }
-var trueid = "trueid";
-var falseid = "falseid"
 
 function feldolgoz(felnottkerdesek) {
     var txt = " "
@@ -23,22 +21,24 @@ function feldolgoz(felnottkerdesek) {
     for (const i in felnottkerdesek) {
 /*       console.log(i) */
       
-      if (i != "id" && i != "helyesvalasz") {
+      if (i != "id" ) {
         if (i === "kerdes") {
           txt += `<h1><span> ${felnottkerdesek[i]}</span></h1>`
-        } else if(i != "v1"){
-          txt += `<input type='radio'id="`+falseid+`"  name="${felnottkerdesek['id']}"><span >${felnottkerdesek[i]}</span><br>`
+        } else if(i === "v1"){
+          txt += `<input type='radio' class="trueid" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v1']}</span><br>`
         }
-        else{
-          txt += `<input type='radio' id="`+trueid+`" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v1']}</span><br>`
+        else if (i === "v2"){
+          txt += `<input type='radio' class="falseid1" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v2']}</span><br>`
           
+        }else{
+          txt += `<input type='radio' class="falseid2" name="${felnottkerdesek['id']}"><span >${felnottkerdesek['v3']}</span><br>`
         }
 
           }  
           
       }
-      txt += `<button onclick="ellenorzo_gomb()">Ellenőrzés</button>`
-      txt += `<p id="output"></p>`
+      txt += `<button id="${felnottkerdesek['id']}" onclick="ellenorzo_gomb()">Ellenőrzés</button>`
+      txt += `<p class="output"></p>`
         txt +=''
       
     });
@@ -52,15 +52,24 @@ function feldolgoz(felnottkerdesek) {
 }
 
 function ellenorzo_gomb() {
-  const output = document.querySelector('#output');
-  if (document.getElementById("trueid").checked === true) {
-    output.innerText=`Helyes válasz`
+  const output = $('.output');
+  const aktTrueid = $('.trueid')[event.target.id-1];
+  const aktFalseid1 = $('.falseid1')[event.target.id-1];
+  const aktFalseid2 = $('.falseid2')[event.target.id-1];
+  var aktualiskimenet= output[event.target.id-1];
+  /* console.log(event.target.id); */
+  /* aktualiskimenet.innerHTML= "válasz" */
+  if (aktTrueid.checked === true) {
+    aktualiskimenet.innerText=`Helyes válasz`;
     console.log("Helyes válasz");
-  }else if(document.getElementById("falseid").checked === true){
-    output.innerText="Helytelen válasz"
+  }else if(aktFalseid1.checked === true){
+    aktualiskimenet.innerText="Helytelen válasz";
+    console.log("Helytelen válasz");
+  }else if(aktFalseid2.checked === true){
+    aktualiskimenet.innerText="Helytelen válasz";
     console.log("Helytelen válasz");
   }else{
-    output.innerText="Válasz a lehetőségek közül."
+    aktualiskimenet.innerText="Válasz a lehetőségek közül.";
   }
 }
 
