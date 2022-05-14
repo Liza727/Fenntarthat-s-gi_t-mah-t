@@ -47,6 +47,7 @@ article{grid-area:ar;
     background-color: white;
     color:black;
     height: auto;
+    padding: 30px;
 }
 footer{
     grid-area: f;
@@ -54,8 +55,11 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "c1 c2 c3";
+    "c1 c2 c3"
+    "c4 c4 c4";
     margin: 0 auto 0 auto;
+    grid-gap: 10px;
+    width: 50%;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -64,12 +68,12 @@ footer{
     border: 2px solid none;
     border-radius: 12px;
     background-color: #11BBD1;
-    width: 400px;
+    width: 100%;
     height: 200px;
     padding-top: 50px;
     text-align: center;
     font-size: xx-large;
-    margin-left: 10px;
+    
   }
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -78,12 +82,12 @@ footer{
     border: 2px solid none;
     border-radius: 12px;
     background-color: #066672;
-    width: 400px;
+    width: 100%;
     height: 200px;
     text-align: center;
     padding-top: 50px;
     font-size: xx-large;
-    margin-left: 10px;
+    
   }
   .card3 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -92,12 +96,26 @@ footer{
     border: 2px solid none;
     border-radius: 12px;
     background-color: #30A0AD;
-    width: 400px;
+    width: 100%;
     height: 200px;
     text-align: center;
     padding-top: 50px;
     font-size: xx-large;
-    margin-left: 10px;
+    
+  }
+  .card4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    grid-area: c4;
+    border: 2px solid none;
+    border-radius: 12px;
+    background-color: #30A0AD;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+    margin: auto;
+    text-align: center;
   }
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -122,54 +140,21 @@ footer{
   }
   @media screen and (max-width: 1300px){
     footer{
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
             "c1"
             "c2"
-            "c3";
-        margin: 0 auto 0 auto;
+            "c3"
+            "c4";
+        width: 100%;
     }
     .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        grid-area: c1;
-        border: 2px solid none;
-        border-radius: 12px;
-        background-color: #11BBD1;
-        width: 400px;
-        height: 100px;
-        padding-top: 20px;
-        text-align: center;
         font-size:large;
-        margin-top: 5px;
       }
       .card2 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        grid-area: c2;
-        border: 2px solid none;
-        border-radius: 12px;
-        background-color: #066672;
-        width: 400px;
-        height: 100px;
-        padding-top: 20px;
-        text-align: center;
         font-size:large;
-        margin-top: 5px;
       }
       .card3 {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        grid-area: c3;
-        border: 2px solid none;
-        border-radius: 12px;
-        background-color: #30A0AD;
-        width: 400px;
-        height: 100px;
-        padding-top: 20px;
-        text-align: center;
         font-size:large;
-        margin-top: 5px;
       }
     }
