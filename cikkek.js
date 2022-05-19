@@ -31,19 +31,38 @@ function feldolgoz_cim(cikkek_cim) {
         }
         console.log(i)
         if (i != "id") {
-          
+                    
           if (i === "kep1"){
-            txt += "<a href=\"#"+id+"\"><img src=\""+cikkekcim[i]+"\" width= 100px height= 100 px ></a>";
+            txt += "<div class='cimkep'><a href=\"#"+id+"\"><img src=\""+cikkekcim[i]+"\" width= 40%  max-height: 200px;></a></div>";
           }
-          
-          else if (i === "foCim1") {
+          /*txt += "<div class='foCim1'>"
+          if (i === "foCim1") {
             txt += `<span class = "focim "> ${cikkekcim[i]}</span>`
-          }
+          }*/
           /*else if (i === "bekezdes1") {
             txt += `<span class = "bekezdes1"> ${cikkekcim[i]}</span>`
           }*/
-          else if (i === "szerzo"){
-            txt += `<span> ${cikkekcim[i]}</span>`
+          /*if (i === "szerzo"){
+            txt += `<span class = "szerzo"> ${cikkekcim[i]}</span>`
+          }
+          txt +="</div> ";
+          */
+          else if (i === "szoveg1"){
+            const lista=cikkekcim[i];          
+            for (const n in lista) {
+              txt += "<div class='cimszoveg'>"
+              if (n === "foCim1") {
+                txt += `<h3> ${lista[n]}</h3>`
+              }
+              else if (n === "bekezdes1"){
+                txt += `<span> ${lista[n]}</span>`
+              }
+              txt +="<br>"
+              if (n === "szerzo"){
+                txt += `<span> ${lista[n]}</span>`
+              }
+              txt +="</div> ";
+            }
           }
 
         }
@@ -57,7 +76,7 @@ function feldolgoz_cim(cikkek_cim) {
 
 function feldolgoz(cikkek) {
     var txt = " ";
-    var id='';
+    var id='';  
     cikkek.forEach(function  (cikkek){
         //txt += "<div class='cikk'>"
 
@@ -101,9 +120,10 @@ function feldolgoz(cikkek) {
 
     var i;
 
-    for (i = 0; i < elements.length; i++) {
-      elements[i].style.msFlex = "50%";  // IE10
-      elements[i].style.flex = "50%";
+    /*for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "30%";  // IE10
+      elements[i].style.flex = "30%";
     }
+    */
     
 }
