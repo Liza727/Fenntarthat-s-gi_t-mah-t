@@ -4,66 +4,106 @@ function $(elem) {
   }
 
 function init(){
+  fetch("cikkek_cim.json")
+    .then((response) => response.json())
+    .then((data) => {
+      //console.log(data.cikkek)
+      feldolgoz_cim(data.cikkek_cim)
+    });
     fetch("cikkek.json")
     .then((response) => response.json())
     .then((data) => {
       //console.log(data.cikkek)
       feldolgoz(data.cikkek)
-    })
+    });
+}
+
+function feldolgoz_cim(cikkek_cim) {
+    var txt = " ";
+    var id='';
+    txt += "<div class='row'>"
+    cikkek_cim.forEach(function  (cikkekcim){
+      
+      txt += "<div class='column'>"
+      for (const i in cikkekcim) {
+        if(i === "id"){
+          id=cikkekcim[i];
+        }
+        console.log(i)
+        if (i != "id") {
+          
+          if (i === "kep1"){
+            txt += "<a href=\"#"+id+"\"><img src=\""+cikkekcim[i]+"\" width= 100px height= 100 px ></a>";
+          }
+          
+          else if (i === "foCim1") {
+            txt += `<span class = "focim "> ${cikkekcim[i]}</span>`
+          }
+          /*else if (i === "bekezdes1") {
+            txt += `<span class = "bekezdes1"> ${cikkekcim[i]}</span>`
+          }*/
+          else if (i === "szerzo"){
+            txt += `<span> ${cikkekcim[i]}</span>`
+          }
+
+        }
+      }        
+      txt +="</div> ";
+    });
+    txt +="</div> <br>";
+    console.log(txt)
+    $('article')[0].innerHTML = txt;
 }
 
 function feldolgoz(cikkek) {
-    var txt = " "
+    var txt = " ";
+    var id='';
     cikkek.forEach(function  (cikkek){
-        txt += ''
+        //txt += "<div class='cikk'>"
 
     for (const i in cikkek) {
-      console.log(i)
+      console.log(i);
+      if(i === "id"){
+        id=cikkek[i];
+      }
       if (i != "id") {
         if (i.indexOf("foCim")>=0) {
-          txt += `<div class="Focim"><h2> ${cikkek[i]}</h2></div>`
+          txt += `<h2 id=\"`+id+`\"> ${cikkek[i]}</h2>`
         }
         else if (i.indexOf("cim")>=0){
-          txt += `<div class="cim"><h3> ${cikkek[i]}</h3></div>`
+          txt += `<h3> ${cikkek[i]}</h3>`
         }
         else if (i.indexOf("bekezdes")>=0 /* === "bekezdes1"  || i === "bekezdes2"  || i === "bekezdes3"  || i === "bekezdes4"  || i === "bekezdes5"  || i === "bekezdes6"  || i === "bekezdes7"  || i === "bekezdes8"  || i === "bekezdes9"  || i === "bekezdes10"  || i === "bekezdes11"  || i === "bekezdes112"  || i === "bekezdes13"  || i === "bekezdes14"  || i === "bekezdes15"  || i === "bekezdes16"  || i === "bekezdes17"  || i === "bekezdes18"  || i === "bekezdes19"*/){
-          txt += `<div class="bekezdes"><span> ${cikkek[i]}</span><br></div>`
+          txt += `<span> ${cikkek[i]}</span><br>`
         }
         else if (i === "link1"){
-          txt += `<div class="link"><span> ${cikkek[i]}</span></div>`
+          txt += `<span> ${cikkek[i]}</span>`
         }
         else if (i === "szerzo"){
-          txt += `<div class="szerzo"><span> ${cikkek[i]}</span></div>`
+          txt += `<span> ${cikkek[i]}</span>`
         }
         else if (i.indexOf("kep")>=0){
           txt += "<img src=\""+cikkek[i]+"\" width= 100px height= 100 px><br>";
-          //txt += "<div class="kep"><img src=\""+cikkek[i]+"\" width= 100px height= 100 px><br></div>";
-          // FTH_cikkek/hulladek_mentes_vasarlas/adagoló.jpg
-         
         }
         else if (i.indexOf("fels")>=0){
-          //txt += `<ul> ${cikkek[i]}</ul><br>`
-         /* txt += '<ul>';
-          for (const x in i.indexOf("fels")!=0){
-            txt += `<li><span>${(x.indexOf("fels")>=0)[x.indexOf("fels")>=0]}</span><span> ${(x.indexOf("fels")>=0)[x.indexOf("fels")>=0]}</span><br>`
-          }
-          txt += '</ul>';*/
           const lista=cikkek[i];          
-          //console.log(Object.keys(lista));
           for (const n in lista) {
-            //console.log(n);
-            txt += "<li><span>"+lista[n]+"</span></li>";
-            //txt += '<div class="kep"><li><span>"+lista[n]+"</span></li></div>';
+            txt += "<li><span>"+lista[n]+"</span>";
           }
-          /*cikkek[i].forEach(function  (n){
-            console.log(n);
-          })*/
         }
       }
-      //txt += `<span> ${cikkek[i]}</span><br>`
         }        
-        txt +=''
     });
     console.log(txt)
-    $('article')[0].innerHTML = txt
+    $('article')[0].innerHTML += txt;
+
+    var elements = document.getElementsByClassName("column");
+
+    var i;
+
+    for (i = 0; i < elements.length; i++) {
+      elements[i].style.msFlex = "50%";  // IE10
+      elements[i].style.flex = "50%";
+    }
+    
 }
