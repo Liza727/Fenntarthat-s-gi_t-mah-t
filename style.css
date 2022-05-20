@@ -133,24 +133,41 @@ footer{
   .kerdesek{
     text-align: justify;
   }
-  .Focim{
+  .focim{
     text-align: center;
+    width: 60%;
+    float: left;
+    display: block;
+  }
+  .szerzo{
+    text-align: center;
+    width: 60%;
+    float: left;
+    display: block;
   }
 
-  .row {
+  div.row {  
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    margin: 0 auto 0 auto;
+
   }
-  
+  div.row2 {  
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 0 auto;
+    
+
+  }
   /* Create two equal columns that sits next to each other */
-  .column {
+  div.column {
     /*-ms-flex: 45%; /* IE 10 */
     /*flex: 45%;*/
-    width: 100%;
+    
     max-height: 400px;
     padding: 0 4px;
-    border: 1px solid gray;
     padding: 10px;
     padding-top: 10px;
     padding-right: 10px;
@@ -160,25 +177,31 @@ footer{
     background-color: #c4ecd4;
   }
   
-  .column img {
-    vertical-align: middle;
+  div.column img {
+    width: 100%;
+    height: auto;
     border: 10px solid white ;
   }
 
-  .cimkep{
-    width: 40%;
-    float: left;
-    display: block;
-    text-align: right;
-    padding-right: 50px;
+  div.cikk {  
+    padding: 0 4px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border: 10px solid #c4ecd4 ;
   }
 
-  .cimszoveg{
-    width: 60%;
+  div.cimkep{
+    width: 35%;
     float: right;
     display: block;
-    
+    text-align: right;
+    margin: auto auto auto auto;
   }
+
 
   @media screen and (max-width: 1400px){
       footer{

@@ -3,100 +3,74 @@
     {
       "id": "bevezeto",
       "kep1": "FTH_cikkek/teknos.jpg",
-      "szoveg1": {
-        "foCim1": "A Fenntarthatósági Témahét",
-        "bekezdes1": "A Fenntarthatósági Témahét 2022. április 25. és 29. között kerül megrendezésre, amelyet Emberi Erőforrások Minisztériuma hirdet."
-      }  
+      "foCim1": "A Fenntarthatósági Témahét",
+      "szerzo": "szerző: SZÁMALK-Szalézi Technikum és Szakgimnázium"
     },
     {
       "id": "szandi",
       "kep1": "FTH_cikkek/hulladek_mentes_vasarlas/adagoló2.jpg",
-      "szoveg1": {
         "foCim1": "Hulladék mentes vásárlás",
-        "bekezdes1": "Mára több mint 50 olyan bolt található Magyarországon, amelyben csomagolás nélkül tudunk vásárolni.",
         "szerzo": "szerző: Karányi Alexandra Viktória"
-      }
     },
     {
       "id": "vzs",
       "kep1": "FTH_cikkek/zold_marketing/zm5.jpg",
-      "szoveg1": {
         "foCim1": "A ZÖLD MARKETING",
-        "bekezdes1": "A marketing már a mindennapjaink része, mindenhol találkozhatunk vele és mindig a szemünk előtt van, még ha nem is látjuk, mint egy rejtett reklám. Mindennapunk része, tehát szinte természetessé vált, nem lenne izgalmas és hasznos ezt a természetes dolgot az életünkben zöldebbé tenni?",
-        "szerzo": "Vigh Zsófia"
-      }
+        "szerzo": "szerző: Vigh Zsófia"
     },
     {
       "id": "dori",
       "kep1": "FTH_cikkek/fenntarthatosagi_alternatívak/hands-4091879_960_720.jpg",
-      "szoveg1": {
-        "foCim1": "PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé.",
-        "bekezdes1": "Neked is fontos a fenntarthatóság? Rengeteg lehetőséged van tenni a környezetedért.",
-        "szerzo": "Pipics Dorottya"
-      }
+      "foCim1": "PLUSZ érdekességek, alternatívák, lépések a hulladékmentes(ebb) jövőnk felé.",
+      "szerzo": "szerző: Pipics Dorottya"
+
     },
     {
       "id": "mesi",
       "kep1": "FTH_cikkek/fenntarthato_divat/kep5.jpg",
-      "szoveg1": {
-        "foCim1": "Fenntartható Divat-Hol vásároljak?",
-        "bekezdes1": "Amikor valaki azt kérdezi tőlem, hol vásároljon fenntartható és etikus divattermékeket Magyarországon, akkor csak azt tudom először mondani: a saját szekrényében.",
-        "szerzo": "Tuli Emese Boglárka"
-      }
+      "foCim1": "Fenntartható Divat-Hol vásároljak?",
+      "szerzo": "szerző: Tuli Emese Boglárka"
+
     },
     {
       "id": "greti",
       "kep1": "FTH_cikkek/teszedd/kep1.jpg",
-      "szoveg1": {
-        "foCim1": "Mi az a TeSzedd!?",
-        "bekezdes1": "A TeSzedd! – Önkéntesen a tiszta Magyarországért akció.",
-        "szerzo": "Kovács Gréta"
-      }
+      "foCim1": "Mi az a TeSzedd!?",
+      "szerzo": "szerző: Kovács Gréta"
     },
     {
       "id": "betti",
       "kep1": "FTH_cikkek/fenntarthatosag_az_iskolaban/kép1.jpg",
-      "szoveg1": {
-        "foCim1": "A fenntarthatóság problémái és céljai",
-        "bekezdes1": "A fenntartható fejlődés (sustainable development) olyan fejlődési folyamat (földeké, városoké, termelési folyamatoké, társadalmaké stb.), amely kielégíti a jelen szükségleteit anélkül, hogy csökkentené a jövendő generációk képességét, hogy kielégítsék a saját szükségleteiket",
-        "szerzo": "Bolla Bettina Réka"
-      }
+      "foCim1": "A fenntarthatóság problémái és céljai",
+      "szerzo": "szerző: Bolla Bettina Réka"
+
     },
     {
       "id": "tori",
       "kep1": "FTH_cikkek/fenntarthatosag_a_színhazban/1.png",      
-      "szoveg1": {
-        "foCim1": "Fenntarthatóság a színházban",
-        "bekezdes1": "Az Éghajlatpolitika és előadóművészetek elnevezésű digitális találkozón elhangzott, hogyan segíthet a történetmesélés a példamutatásban: „Az előadások meg tudják mutatni a nézőnek azt, hogy a változás (a környezet védelméért) már elkezdődött, mert léteznek olyan emberek, akik képesek voltak változtatni saját életükön.",
-        "szerzo": "PItyer Viktória Krisztina"
-      }
+      "foCim1": "Fenntarthatóság a színházban",
+      "szerzo": "szerző: PItyer Viktória Krisztina"
     },
     {
       "id": "baresz",
       "kep1": "FTH_cikkek/a_fenntarthatosag_fogalmai/kép1.jpg",
-      "szoveg1": {
         "foCim1": "De mit is jelent valójában a kifejezés és miért fontos, hogy foglalkozzunk vele?",
-        "bekezdes1": "Az ENSZ a fenntartható fejlődést a következőképpen definiálta: fejlődés, amely „anélkül elégíti ki a jelen szükségleteit, hogy veszélyeztetné a jövő generációk lehetőségét saját igényeik kielégítésére”.",
-        "szerzo": "Oláh Barbara"
-      }
+        "szerzo": "szerző: Oláh Barbara"
+
       
     },
     {
       "id": "vera1",
       "kep1": "FTH_cikkek/az_energiank_20-a_szeleromovekbol_fog_erkezni/kep1.jpg",
-      "szoveg1": {
-        "foCim1": "Az energiánk 20%-a szélerőművekből fog érkezni",
-        "szerzo": "Zachar Veronika"
-      }
-      
+      "foCim1": "Az energiánk 20%-a szélerőművekből fog érkezni",
+      "szerzo": "szerző: Zachar Veronika"
     },
     {
       "id": "vera2",
       "kep1": "FTH_cikkek/oceanok_mi_a_szerepük_az_eletben,_hogyan_ovjuk_oket/kep2.jpg",
-      "szoveg1": {
-        "foCim1": "Óceánok: mi a szerepük az életben, hogyan óvjuk őket?",
-        "szerzo": "Zachar Veronika"
-      }
+      "foCim1": "Óceánok: mi a szerepük az életben, hogyan óvjuk őket?",
+      "szerzo": "szerző: Zachar Veronika"
+
     }
   ]
 }
