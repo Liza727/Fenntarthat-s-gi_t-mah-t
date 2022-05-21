@@ -56,6 +56,16 @@ nav li a{
 nav ul{
   margin: 15px 0 0 10px;
 }
+.gomb{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.Title1, .Title2{
+  text-align: center;
+  padding: 0px;
+  
+}
 article{grid-area:ar;
     height: 300px;
     background-color: white;
