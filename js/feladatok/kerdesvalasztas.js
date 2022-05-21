@@ -6,8 +6,7 @@ function $(elem) {
   function vonalbetolt() {
     var vonal = document.getElementsByClassName("Title2");
     for (let i = 0; i < vonal.length; i++) {
-      vonal[i].style.borderBottom = "5px solid #30A0AD"
-      
+      vonal[i].style.borderBottom = "5px solid #30A0AD";
     }
 
   }
@@ -15,15 +14,15 @@ function $(elem) {
 function init(){
   
   $("#adult")[0].addEventListener("click",function () {
-    kerdesbetoltes("adultkerdesek.json");
+    kerdesbetoltes("./json/feladatok/adultkerdesek.json");
     vonalbetolt();
   });
   $("#mschool")[0].addEventListener("click",function () {
-    kerdesbetoltes("middlechoolkerdesek.json");
+    kerdesbetoltes("./json/feladatok/middlechoolkerdesek.json");
     vonalbetolt();
   });
   $("#hgschool")[0].addEventListener("click",function () {
-    kerdesbetoltes("hightschoolkerdesek.json");
+    kerdesbetoltes("./json/feladatok/hightschoolkerdesek.json");
     vonalbetolt();
   });  
 }
