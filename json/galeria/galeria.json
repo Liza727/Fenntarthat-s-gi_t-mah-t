@@ -1,0 +1,126 @@
+{
+
+    "galeria" : [
+        
+        {
+            "id": "1",
+            "eleresiut": "/galeria/feher_szab/1.jpg",
+            "Fotós": "Fehér Szebasztian",
+            "Modell": "Berecz Lili Blanka",
+            "Készítőneve": "Berecz Lili Blanka ",
+            "Kollekció": "kreatív kísérletek kollekció",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Extravagáns, ugyanakkor ízléses felsőrész keszült, ami nőies, és amellett, hogy szinte minden alkaton jól áll, és kényelmet is biztosít viselőjének.",
+            "tovabbikepek1": "/galeria/feher_szab/1_1.jpg",
+            "tovabbikepek2": "/galeria/feher_szab/1_2.jpg"
+        },
+        {
+            "id": "2",
+            "eleresiUt": "/galeria/feher_szab/2.jpg",
+            "Fotós": "Fehér Szebasztian",
+            "Modell": "Balla Robin",
+            "Készítőneve": "Balla Robin",
+            "Kollekció": "Zero Waste",
+            "m/w ruha": " férfi ruha ",
+            "Leírás": " - ",
+            "tovabbikepek1": "/galeria/feher_szab/2_1.jpg",
+            "tovabbikepek2": "/galeria/feher_szab/2_2.jpg"
+        },
+        {
+            "id": "3",
+            "eleresiUt": "/galeria/feher_szab/1.jpg",
+            "Fotós": "Fehér Szebasztian",
+            "Modell": "Nagy Hanna Napsugár",
+            "Készítőneve": "Nagy Hanna Napsugár",
+            "Kollekció": "Zero Waste ",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Nagy Hanna Napsugár által tervezett ruha célja az volt,hogy kényelmes legyen és könnyen lehessen benne mozogni, így akár fellépésekre is lehessen használni.",
+            "tovabbikepek1": "/galeria/feher_szab/3_1.jpg",
+            "tovabbikepek2": "/galeria/feher_szab/3_2.jpg"
+        },
+        {
+            "id": "4",
+            "eleresiUt": "/galeria/feher_szab/1.jpg",
+            "Fotós": "Fehér Szebasztian",
+            "Modell": "Sárácz Tijáná",
+            "Készítőneve": "Novák Nóra",
+            "Kollekció": "Zero Waste",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Viharkabát /upcycling esőkabát/ A műanyag oldhatatlansága, le nem bomlósága tökéletesen párhuzamba állítható a dohánytermékek rendszeres használatával. Mindkét esetben az ember a fogyasztó ki a testét és a földjét is szennyezi. A műanyag lebomlása több száz évbe telik, a kátrány a tüdőben lerakódva akár évek múltán is kimutatható.",
+            "tovabbikepek1": "/galeria/feher_szab/4_1.jpg",
+            "tovabbikepek2": "/galeria/feher_szab/4_2.jpg"
+        },
+        {
+            "id": "5",
+            "eleresiUt": "/galeria/gall_regina/2.jpg",
+            "Fotós": "Gáll Regina",
+            "Modell": "Szoboszlai Bella",
+            "Készítőneve": "Szoboszlai Bella",
+            "Kollekció": "Zero Waste",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Az élénk színek es merész szabásvonalak az élet változatosságát és lendületességet tükrözik.",
+            "tovabbikepek1": "/galeria/gall_regina/2_1.jpg",
+            "tovabbikepek2": "/galeria/gall_regina/2_2.jpg"
+        },
+        {
+            "id": "6",
+            "eleresiUt": "/galeria/gall_regina/3.jpg",
+            "Fotós": "Gáll Regina",
+            "Modell": "Fazekas Anna",
+            "Készítőneve": "Fazekas Anna",
+            "Kollekció": "Zero Waste",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Fazekas Anna különböző színű geometriai formák használatával színes, érdekes öltözéket hozott létre. Ezek a formák jelennek meg a  felsőn és a nadrágon is, ezzel valami újat és egyedit megalkotva, de mégis felhasználva a régit.",
+            "tovabbikepek1": "/galeria/gall_regina/3_1.jpg",
+            "tovabbikepek2": "/galeria/gall_regina/3_2.jpg"
+        },
+        {
+            "id": "7",
+            "eleresiUt": "/galeria/jozsa_anna/1.jpg",
+            "Fotós": "Józsa Anna",
+            "Modell": "Nagy Dominika Anna",
+            "Készítőneve": "Nagy Dominika Anna",
+            "Kollekció": "Zero Waste",
+            "m/w ruha": " női ruha ",
+            "Leírás": " Nagy Dominika által tervezett ruhánál  a szabásminták helyes, átgondolt elrendezése által nem keletkezett hulladék.A ruha csupán egy körből és körcikkekből lett  összeállítva, a fazonja, stílusa a középkor divatját gondolja újra.",
+            "tovabbikepek1": "/galeria/jozsa_anna/1_1.jpg",
+            "tovabbikepek2": "/galeria/jozsa_anna/1_2.jpg"
+        },
+        {
+            "id": "8",
+            "eleresiUt": "/galeria/jozsa_anna/2.jpg",
+            "Fotós": "Józsa Anna",
+            "Modell": "Bencze Rubina",
+            "Készítőneve": "Szórád Nikolett",
+            "Kollekció": "Zero Waste",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Szórád Nikolett által tervezett összeállitást a fekete és rózsaszín harmoniája ihlette, melyet egy pillangós párnahuzatból készült fűző koronáz meg. ",
+            "tovabbikepek1": "/galeria/jozsa_anna/2_1.jpg",
+            "tovabbikepek2": "/galeria/jozsa_anna/2_2.jpg"
+        },
+        {
+            "id": "9",
+            "eleresiUt": "/galeria/jozsa_anna/3.jpg",
+            "Fotós": "Józsa Anna",
+            "Modell": "Bencze Rubina",
+            "Készítőneve": "Szórád Nikolett",
+            "Kollekció": "Kreatív kisérletek kollekció",
+            "m/w ruha": " női ruha ",
+            "Leírás": "Ezt az ujrahasznosított inget a levehető ujjrész teszi igazán érdekessé melynek célja hogy izgalmasabb összeállításokat alkothassunk. Visszaköszön benne a rózsaszín szín és minta találkozása.",
+            "tovabbikepek1": "/galeria/jozsa_anna/3_1.jpg",
+            "tovabbikepek2": "/galeria/jozsa_anna/3_2.jpg"
+        },
+        {
+            "id": "10",
+            "eleresiUt": "/galeria/jozsa_anna/4.jpg",
+            "Fotós": "Józsa Anna",
+            "Modell": "Szoboszlai Bella",
+            "Készítőneve": "Szoboszlai Bella",
+            "Kollekció": "Kreatív kisérletek kollekció",
+            "m/w ruha": " női ruha ",
+            "Leírás": "A tervező, Szoboszlai Bella szándéka szerint a bohókás ráncok és hajtások a kiszámíthatatlanság csodáját rejtik.",
+            "tovabbikepek1": "/galeria/jozsa_anna/4_1.jpg",
+            "tovabbikepek2": "/galeria/jozsa_anna/4_2.jpg"
+        }
+    ]
+  }
